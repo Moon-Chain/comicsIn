@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <title>5 Şubat 2022 OTG-KA</title>
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script>
+        Swal.fire({
+            title: 'Hoşgeldin',
+            text: 'Tema "Arctic" - 5 Şubat 2022 OTG-KA',
+            showDenyButton: false,
+            showCancelButton: false,
+            showConfirmButton: true,
+            confirmButtonText: 'Devam et',
+            allowEscapeKey: false,
+            allowOutsideClick: false
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: 'Projenin ismi ComicsIn',
+                    text: 'LinkedIn, ismini bizden çaldı evet',
+                    showDenyButton: false,
+                    showCancelButton: false,
+                    showConfirmButton: true,
+                    confirmButtonText: 'Devam et',
+                    allowEscapeKey: false,
+                    allowOutsideClick: false
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        location.href = "5222_concept.html"
+                    }
+                })
+            }
+        })
+    </script>
+</body>
+
+</html>
